@@ -14,8 +14,8 @@
 
 	// Choose URL and Request Method
 	$url = "https://api.twitter.com/1.1/search/tweets.json";
-	$getfield = '?q=#'. $q . '+%3A%29+filter:safe&lang=en&tweet_mode=extended'; // queries start with ? and are strung together with &
-	$requestMethod = "GET";
+ 	$getfield = '?q=#earthday&lang=en&count=20'; // queries start with ? and are strung together with &
+	 $requestMethod = "GET";
 	
 	//Perform the request!
 	$twitter = new TwitterAPIExchange($settings);
